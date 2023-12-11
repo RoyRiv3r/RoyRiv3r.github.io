@@ -1401,17 +1401,13 @@ body,
 #app-mount .mentioned__58017::before {
   background: rgb(var(--chat-mention-colour));
 }
-#app-mount .mentioned__58017.groupStart__56db5 {
+#app-mount .mentioned__58017 {
   background: var(--chat-mention-bubble) !important;
 }
-#app-mount
-  .mentioned__58017.groupStart__56db5
-  .messageContent__21e69:not(:empty) {
+#app-mount .mentioned__58017 .messageContent__21e69:not(:empty) {
   background: transparent !important;
 }
-#app-mount
-  .mentioned__58017:not(.groupStart__56db5)
-  .messageContent__21e69:not(:empty) {
+#app-mount .mentioned__58017:not() .messageContent__21e69:not(:empty) {
   background: var(--chat-mention-bubble) !important;
 }
 #app-mount .cozy_f5c119 .avatar__08316 {
@@ -1429,24 +1425,24 @@ body,
 #app-mount .cozy_f5c119 .container_aed774 {
   padding: 0;
 }
-#app-mount .cozy_f5c119.groupStart__56db5 {
+#app-mount .cozy_f5c119 {
   background: var(--chat-bubble-bg);
   display: inline-block;
   border-radius: var(--rounded) var(--rounded);
   max-width: 100%;
 }
-#app-mount .cozy_f5c119.groupStart__56db5 .header__39b23 {
+#app-mount .cozy_f5c119 .header__39b23 {
   padding-top: var(--chat-padding-y);
   padding-right: var(--chat-padding-x);
   padding-bottom: 2px;
   padding-left: var(--chat-padding-x);
   margin-left: 0;
 }
-#app-mount .cozy_f5c119.groupStart__56db5 .messageContent__21e69:empty {
+#app-mount .cozy_f5c119 .messageContent__21e69:empty {
   margin-top: 8px;
   display: block;
 }
-#app-mount .cozy_f5c119.groupStart__56db5 .messageContent__21e69:not(:empty) {
+#app-mount .cozy_f5c119 .messageContent__21e69:not(:empty) {
   padding-top: 0;
 }
 #app-mount .cozy_f5c119.isSystemMessage__2ef37 .messageContent__21e69 {
